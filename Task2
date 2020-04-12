@@ -1,0 +1,4 @@
+my_list = [25, 4, 55, 67, 3, 1, 87, 2]
+my_new_list = [el for num, el in enumerate(my_list) if my_list[num - 1] < my_list[num]]
+print(f'Исходный список {my_list}')
+print(f'Новый список {my_new_list}')
